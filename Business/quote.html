@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Get a Quote - Crochet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./Assets/Images/png-transparent-letter-c-illustration-environmentally-friendly-letter-c-leaf-hand-environmental-thumbnail.png">
+    <link href="style.css" rel="stylesheet">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <button id="openBtn" class="navBtn">&#9776;</button>
+    <nav id="nav"> 
+        <button id="closeBtn" class="navBtn">x</button>
+        <p><a href="index.html" class="navItm">home</a></p>
+        <p><a href="products.html" class="navItm">products</a></p>
+        <p><a href="about.html" class="navItm">about us</a></p>
+        <p><a href="branches.html" class="navItm">branches</a></p>
+        <p><a href="quote.html" class="navItm">get a quote</a></p>
+        <p><a href="contact.html" class="navItm">contact us</a></p>
+    </nav>
+
+    <main>
+        <h1>Yarn and Strings</h1>
+        <h2>east 1903</h2>
+
+        <button id="qbtn">Get Quote</button>
+        <div id="modal" class="hidden">
+           <button id="modalClose">&Chi;</button>
+           <form id="order" action="https://docs.google.com/forms/d/e/1FAIpQLSexd1uF8lYok5ICPSAIo1_F2pBdqCEWR4Vpfrq1fxgHM08evA/formResponse" method="POST">
+            <label for="type">Type:</label>
+            <select name="entry.439416458" id="type">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Bunny">Bunny</option>
+            </select>
+        <fieldset>
+            <h3>Priority Shipping</h3>
+            <label for="Yes">Yes</label>
+            <input id="Yes"class="radiobtn" type="radio" name="entry.1855802555" value="Yes">
+            <label for="No">No</label>
+            <input id="No"class="radiobtn" type="radio" name="entry.1855802555" value="No"> 
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <h3>Colours</h3>
+            <label for="Blue">Blue</label>
+            <input type="checkbox" name="entry.1421953382" value="Blue" class="Checkbox">
+            <br>
+            <label for="Pink">Pink</label>
+            <input type="checkbox" name="entry.1421953382" value="Pink" class="Checkbox">
+            <br>
+            <label for="Green">Green</label>
+            <input type="checkbox" name="entry.1421953382" value="Green" class="Checkbox">
+            <br>
+            <button id="Sub" type="submit">Submit</button>
+        </fieldset>
+        </div>
+        
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="branches.html">branches</a></li>
+            <li><a href="quote.html">get a quote</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
